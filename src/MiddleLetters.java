@@ -1,3 +1,7 @@
+/* Ejercicio que pasa un String a Char y si la palabra es par devuelve las dos letras del medio,
+ en caso de ser impar solo devuelve una. Devuelve un String conformado por esas letras
+
+ */
 public class MiddleLetters {
 
     public static void main (String[]args){
