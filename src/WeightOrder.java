@@ -12,7 +12,11 @@ public class WeightOrder {
     public static void main (String[]args){
 
         String strng = 100+" "+99+" "+12+" "+75+" "+87+" "+15+" "+1001+ " "+ 31;
-
+        String strng2 = 89+ " "+ 49+" "+ 66;
+        System.out.println(weightOrderList(strng));
+        System.out.println(weightOrderList(strng2));
+    }
+    public static ArrayList<Integer> weightOrderList (String strng){
         String [] numeros = strng.split("\\s");
         ArrayList<Integer> listaNum= new ArrayList<Integer>();
 
@@ -22,9 +26,7 @@ public class WeightOrder {
 
         //ordena segun la suma de los digitos de cada int de manera ascendente.
         Collections.sort(listaNum,new CustomComparator());
-
-        System.out.println(strng);
-        System.out.println(listaNum);
+        return listaNum;
     }
 
     public static int sumOfDigits (int n){
