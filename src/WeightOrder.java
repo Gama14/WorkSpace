@@ -4,8 +4,8 @@ import java.util.Collections;
 import java.util.Comparator;
 
 /*
-Un String con numeros separados por "", ponerlos en un array y ordenarlos de manera ascendente por peso.
-Si el num es 100 el peso serà 1 y si el num es 99 el peso serà 18. por tanto 100 irá antes que 99.
+Un String con numeros separados por " ", ponerlos en un array y ordenarlos de manera ascendente por peso.
+Si el num es 100 el peso será 1 y si el num es 99 el peso será 18. por tanto 100 irá antes que 99.
  */
 
 public class WeightOrder {
