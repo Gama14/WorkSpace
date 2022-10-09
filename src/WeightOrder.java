@@ -25,8 +25,6 @@ public class WeightOrder {
 
         System.out.println(strng);
         System.out.println(listaNum);
-
-
     }
 
     public static int sumOfDigits (int n){

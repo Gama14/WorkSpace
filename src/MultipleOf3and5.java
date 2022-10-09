@@ -6,8 +6,6 @@ public class MultipleOf3and5 {
     public static void main(String[] args) {
 
         System.out.println(sumOfMultiples(10));
-
-
     }
     public static int sumOfMultiples (int number){
        //primero crea lista con numeros consecutivos del 1 al valor del parametro
