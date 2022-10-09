@@ -16,7 +16,7 @@ public class MultipleOf3and5 {
         for(int i =0; i<size;i++){
             numbers[i]= i;
         }
-
+        //verifica los valores que son multiples de 3 ó de 5 y los suma a un total
         int total = 0;
         for (int j = 0; j < size; j++) {
             if ((numbers[j] % 3 == 0) || (numbers[j] % 5 == 0)) {
