@@ -9,9 +9,6 @@ public class MiddleLetters {
         System.out.println(middleLetter("margaritas"));
         System.out.println(middleLetter("cat"));
         System.out.println(middleLetter("mimic"));
-
-
-
     }
     public static String middleLetter (String word){
         char[] wordLetters = word.toCharArray();
